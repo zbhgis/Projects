@@ -1,3 +1,11 @@
+"""
+-------------------------------------------------------------------------------
+@Author         :  zbhgis
+@Github         :  https://github.com/zbhgis
+@Description    :  check and copy shapefile
+-------------------------------------------------------------------------------
+"""
+
 import geopandas as gpd
 import os
 import shutil

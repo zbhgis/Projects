@@ -1,3 +1,11 @@
+"""
+-------------------------------------------------------------------------------
+@Author         :  zbhgis
+@Github         :  https://github.com/zbhgis
+@Description    :  convert json to shapefile
+-------------------------------------------------------------------------------
+"""
+
 import json
 import random
 import pandas as pd

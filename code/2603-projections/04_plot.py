@@ -1,3 +1,11 @@
+"""
+-------------------------------------------------------------------------------
+@Author         :  zbhgis
+@Github         :  https://github.com/zbhgis
+@Description    :  add some vector and raster data on map-projection plots
+-------------------------------------------------------------------------------
+"""
+
 import matplotlib.pyplot as plt
 import cartopy.crs as ccrs
 import cartopy.feature as cfeature
