@@ -18,7 +18,7 @@ from scipy.ndimage import gaussian_filter
 # 基本配置
 plt.rcParams["font.family"] = "Arial"
 nc_name = "paleo_6min_100Ma"
-nc_file = Path(f"./data_res/{nc_name}.nc")
+nc_file = Path(f"../data_res/{nc_name}.nc")
 
 # 读取数据
 ds = xr.open_dataset(nc_file)
@@ -104,7 +104,7 @@ for sigma in sigma_list:
 
         title = f"paleomap_nobasemap_{sigma}_{tag}"
         plt.title(title)
-        output_path = Path(f"./fig_res/{title}.png")
+        output_path = Path(f"../fig_res/{title}.png")
         output_path.parent.mkdir(parents=True, exist_ok=True)
 
         plt.savefig(
